@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 標楷體;
+    /* background-color: rgb(213, 245, 255); */
+    /* background-image: url(../image/2.jpg); */
+    background: url(../image/5.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: auto;
+}
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.wrapper {
+    margin: auto;
+    width: auto;
+    /* box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+	-webkit-box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+	-moz-box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+	-o-box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424; */
+}
+.content_in {
+    text-align: center;
+    width: 720px;
+    height: 280px;
+    background-color: #ffff4d;
+    /* background-image: -webkit-linear-gradient(100deg, #e0e5b3 20%,lightgoldenrodyellow  72%); */
+    /* background: linear-gradient(45deg, #FF8CC6 35%, #FFA0D0 60%);
+	background: -moz-linear-gradient(45deg, #FF8CC6 35%, #FFA0D0 60%);
+	background: -webkit-linear-gradient(45deg, #FF8CC6 35%, #FFA0D0 60%);
+	background: -o-linear-gradient(45deg, #FF8CC6 35%, #FFA0D0 60%); */
+    /* background-image: -webkit-linear-gradient(100deg, #e0e5b3 20%,lightyellow  72%); */
+}
+
+.content_in1 {
+    text-align: center;
+    padding: 30px 50px;
+    width: 720px;
+    height: 620px;
+    background-color: #ffff4d;
+    /* background-image: -webkit-linear-gradient(100deg, #e0e5b3 20%,lightgoldenrodyellow  72%); */
+}
+.content_in2 {
+    text-align: center;
+    padding: 30px 50px;
+    width: 840px;
+    height: 620px;
+    background-color: #f1f2eb;
+    background-image: -webkit-linear-gradient(
+        100deg,
+        #e0e5b3 20%,
+        lightgoldenrodyellow 72%
+    );
+}
+
+.Uppercolumn {
+    width: 100%;
+    height: 5%;
+}
+
+.button {
+    width: 130.75px;
+    height: 50px;
+    /* background-color:#a4c2a5; */
+    color: #000;
+    border-radius: 15px;
+    cursor: pointer;
+    background: -webkit-linear-gradient(
+        top,
+        #afeeee 20%,
+        #80ffff 70%
+    ); /*按鈕顏色*/
+    /* box-shadow: 0px 7px 12px -5px #e6d2b7, inset 1px 1px 10px #d7b377; 0px右下陰影設10px會突出 7px下陰影 12px右陰影 -5px按鈕外全陰影  1px左陰影 1px上陰影 20px全陰影 */
+    font-weight: bold;
+    border: 1px solid #000; /* 外框顏色 */
+    /* -webkit-box-shadow: 0px 7px 2px -5px #e6d2b7, inset 0px 0px 3px #d7b377; */
+    -webkit-border-radius: 15px;
+}
+.button:hover {
+    color: #000;
+    /* background:; */
+    border: 2px #000 solid;
+}
+
+.submit {
+    width: 130.75px;
+    height: 50px;
+    border: 0px solid #c7c7c7;
+    background-color: #a4c2a5;
+
+    color: #000;
+    border-radius: 10px;
+    cursor: pointer;
+    background: -webkit-linear-gradient(top, #afeeee 20%, #80ffff 70%);
+    box-shadow: 0px 7px 12px -5px #e6d2b7, inset 1px 1px 10px #d7b377;
+    -webkit-box-shadow: 0px 7px 2px -5px #e6d2b7, inset 0px 0px 3px #d7b377;
+    border: 1px solid #000;
+    /* -webkit-transition: 1s; */
+}
+.submit:hover {
+    color: black;
+    background-color: #fff;
+    background: none;
+    border: 2px #000 solid;
+}
+
+.course {
+    width: 100%;
+    height: 5%;
+    padding: 3% 0%;
+    /* border: 1px solid #000; */
+}
+.block {
+    width: 720px;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 150px; */
+    /* background-color: #d8dad3; */
+}
+
+.Nolinebreak {
+    width: auto;
+    display: inline-block;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    /* background: -webkit-linear-gradient(top, #2b4162 20%, #32506a 70%); */
+    color: #2b4162;
+}
+.videoblock2 {
+    width: 303.75px;
+    height: 540px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #4798b3;
+    display: inline-block; /*不換行*/
+    /* background: -webkit-linear-gradient(top, #75a46f 20%, #89a37d 70%); */
+    color: #fff;
+}
+.videoblock1 {
+    width: 540px;
+    height: 303.75px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #f1f2eb;
+    display: inline-block; /*不換行*/
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    background-color: #dcd6f7;
+}
+.footer p {
+    padding: 10px 0;
+    font-family: Fixedsys;
+}
+/* @media screen and (max-width: auto) {
+	#wrapper{
+		width: auto;
+	}
+} */

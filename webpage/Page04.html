@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/style03.css" />
+        <title>Page04</title>
+    </head>
+    <body class="center">
+        <div class="wrapper">
+            <div class="content_in1">
+                <div style="float: left; height: 100%">
+                    <div class="videoblock2">
+                        <div style="width: 100%; height: 4%">標準影片</div>
+                        <video
+                            style="width: 100%; height: 96%"
+                            autoplay="false"
+                            id="video1"
+                            controls
+                        >
+                            <source type="video/mp4" src="" id="source1" />
+                            <!--src="../example/example01.mp4"-->
+                        </video>
+                    </div>
+                    <div style="height: 78px">
+                        <form name="form1">
+                            <input
+                                type="file"
+                                id="upload_file1"
+                                name="file1"
+                                accept="video/mp4"
+                            /><br />
+                            <input
+                                type="button"
+                                value="上傳檔案"
+                                onclick="file_upload1()"
+                            />
+                        </form>
+                    </div>
+                </div>
+                <div class="Nolinebreak">
+                    <input
+                        type="button"
+                        value="開始比對"
+                        onclick="location.href='../php/execute.php'"
+                    />
+                </div>
+                <div style="float: right; height: 100%">
+                    <div class="videoblock2">
+                        <div style="width: 100%; height: 4%">比較影片</div>
+                        <video
+                            style="width: 100%; height: 96%"
+                            autoplay="false"
+                            id="video2"
+                            controls
+                        ></video>
+                    </div>
+                    <div style="height: 78px">
+                        <form name="form2">
+                            <input
+                                type="file"
+                                id="upload_file2"
+                                name="file2"
+                                accept="video/mp4"
+                            /><br />
+                            <input
+                                type="button"
+                                value="上傳檔案"
+                                onclick="file_upload2()"
+                            />
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <script src="../js/upload.js"></script>
+            <script src="../js/upload_preview.js"></script>
+        </div>
+    </body>
+</html>
